@@ -44,7 +44,12 @@ class listadoUsuariosScreen extends StatelessWidget {
 
                         IconButton(
                           onPressed: (){}, 
-                          icon: const Icon(Icons.edit))
+                          icon: const Icon(Icons.edit)),
+
+                        const SizedBox(width: 20,),
+                        IconButton(
+                          onPressed: (){}, 
+                          icon: const Icon(Icons.delete))
                       ],
                     ),
                   ),
